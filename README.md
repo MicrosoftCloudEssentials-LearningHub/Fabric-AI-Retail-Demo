@@ -39,6 +39,8 @@ Last updated: 2025-10-09
 
     <img width="1610" height="483" alt="image" src="https://github.com/user-attachments/assets/5aa282f3-4202-4195-8376-2c071c88d90d" />
 
+- [Zava DIY Dataset Plus MCP](https://github.com/microsoft/ai-tour-26-zava-diy-dataset-plus-mcp/tree/main) - github repo
+
 </details>
 
 <details>
