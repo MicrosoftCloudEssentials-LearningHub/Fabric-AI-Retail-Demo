@@ -11,7 +11,7 @@ Last updated: 2025-10-09
 
 > These are `pre-built templates, data models, and connectors that you can deploy to jumpstart retail analytics and AI scenarios`. They are `customizable and intended for real-world use, not just demos.`
 
-> E.g of what an E2E demo looks like when using the Retail Solution Accelerator:
+E.g of what an E2E demo looks like when using the Retail Solution Accelerator:
 
 <img width="1903" height="996" alt="image" src="https://github.com/user-attachments/assets/7a2293d5-51e0-4251-a78e-89825845edf2" />
 
