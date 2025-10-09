@@ -64,15 +64,15 @@ This is an introductory workshop on Microsoft Fabric. Please follow as described
     </div>
 
 - [AI + LLMs](./AzurePortal/2_AI_LLMs/): Discover how artificial intelligence and large language models integrate with Fabric.
-- [Data Agent](./AzurePortal/3_AISkills.md): Get insights on using AI skills within the platform.
+- [Data Agent](./AzurePortal/3_DataAgent.md): Get insights on using AI skills within the platform.
 
     <img width="1141" height="669" alt="image" src="https://github.com/user-attachments/assets/7c9cac60-8048-4a02-bc5a-c81ba5c041e1" />
 
-- `DevOps`: Learn about continuous integration and continuous deployment, including [deployment pipelines](./AzurePortal/4_CICD/0_deployment-pipelines/) and [GitHub integration](./AzurePortal/4_CICD/1_github-integration.md).
+- `DevOps`: Learn about continuous integration and continuous deployment, including [deployment pipelines](./AzurePortal/4_DevOps/0_deployment-pipelines/) and [GitHub integration](./AzurePortal/4_DevOps/1_github-integration.md).
 
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-0-limegreen" alt="Total views">
+  <img src="https://img.shields.io/badge/Total%20views-1343-limegreen" alt="Total views">
   <p>Refresh Date: 2025-10-09</p>
 </div>
 <!-- END BADGE -->
