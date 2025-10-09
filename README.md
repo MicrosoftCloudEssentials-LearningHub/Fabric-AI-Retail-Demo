@@ -21,10 +21,23 @@ Last updated: 2025-10-09
 <details>
 <summary><b>List of references</b> (Click to expand)</summary>
   
+- [Microsoft Fabric decision guide: copy activity, Copy job, dataflow, Eventstream, or Spark](https://learn.microsoft.com/en-us/fabric/fundamentals/decision-guide-pipeline-dataflow-spark)
+- [Microsoft Fabric decision guide: Choose a data integration strategy](https://learn.microsoft.com/en-us/fabric/data-factory/decision-guide-data-integration?toc=%2Ffabric%2Ffundamentals%2Ftoc.json&bc=%2Ffabric%2Ffundamentals%2Fbreadcrumb%2Ftoc.json)
+
+    <img width="1115" height="725" alt="image" src="https://github.com/user-attachments/assets/ef1db682-1673-421e-a9cf-370894ce7be3" />
+
+- [Microsoft Fabric decision guide: Choose a data movement strategy](https://learn.microsoft.com/en-us/fabric/data-factory/decision-guide-data-movement?toc=%2Ffabric%2Ffundamentals%2Ftoc.json&bc=%2Ffabric%2Ffundamentals%2Fbreadcrumb%2Ftoc.json)
+
+    <img width="1532" height="842" alt="image" src="https://github.com/user-attachments/assets/7f95b1c9-9eb9-4b66-89a7-13c3fa046269" />
+
 - [Microsoft Fabric decision guide: choose a data store](https://learn.microsoft.com/en-us/fabric/fundamentals/decision-guide-data-store
 )
 
     <img width="523" height="465" alt="image" src="https://github.com/user-attachments/assets/ca15f8b9-6c96-4bc5-9d27-66f65afe31e2" />
+
+- [Microsoft Fabric decision guide: Choose between Warehouse and Lakehouse](https://learn.microsoft.com/en-us/fabric/fundamentals/decision-guide-lakehouse-warehouse)
+
+    <img width="1610" height="483" alt="image" src="https://github.com/user-attachments/assets/5aa282f3-4202-4195-8376-2c071c88d90d" />
 
 </details>
 
