@@ -11,6 +11,10 @@ Last updated: 2025-10-09
 
 > These are `pre-built templates, data models, and connectors that you can deploy to jumpstart retail analytics and AI scenarios`. They are `customizable and intended for real-world use, not just demos.`
 
+> E.g of what an E2E demo looks like when using the Retail Solution Accelerator:
+
+<img width="1903" height="996" alt="image" src="https://github.com/user-attachments/assets/7a2293d5-51e0-4251-a78e-89825845edf2" />
+
 ## How to set use it 
 
 - In your workspace, click on `New item` section
@@ -51,10 +55,6 @@ As today:
 - Sales and Commerce (Preview):
 
     <img width="1904" height="1000" alt="image" src="https://github.com/user-attachments/assets/42ca5866-e230-4578-b997-071d0271863d" />
-
-> E.g of what an E2E demo looks like when using the Retail Solution Accelerator:
-
-<img width="1903" height="996" alt="image" src="https://github.com/user-attachments/assets/7a2293d5-51e0-4251-a78e-89825845edf2" />
 
 <!-- START BADGE -->
 <div align="center">
