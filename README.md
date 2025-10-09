@@ -35,6 +35,8 @@ Last updated: 2025-10-09
   <img src="https://github.com/brown9804/MSCloudEssentials_LPath/assets/24630902/64812721-7c24-4771-90f4-27f7a21fa9e0" width="350" height="200" />
 </p>
 
+> E.g of a solution prior Microsoft Fabric:
+
 <div align="left">
   <img src="https://github.com/user-attachments/assets/af2aa6cb-0349-481b-abe4-d8c470551899" 
        alt="Centered Image" 
