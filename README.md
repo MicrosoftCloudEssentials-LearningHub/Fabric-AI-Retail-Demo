@@ -64,6 +64,11 @@ This is an introductory workshop on Microsoft Fabric. Please follow as described
     </div>
 
 - [AI + LLMs](./AzurePortal/2_AI_LLMs/): Discover how artificial intelligence and large language models integrate with Fabric.
+  - Example of [how to integrate Azure OpenAI with Fabric](https://github.com/MicrosoftCloudEssentials-LearningHub/Fabric-AI-Retail-Demo/tree/main/AzurePortal/2_AI_LLMs#configure-azure-openai-service): Call a deployed model and request information.
+  - [Basic Usage of LangChain Transformer](https://github.com/MicrosoftCloudEssentials-LearningHub/Fabric-AI-Retail-Demo/tree/main/AzurePortal/2_AI_LLMs#basic-usage-of-langchain-transformer): Create a prompt template, set up an LLMChain, and configure the transformer to execute the processing chain.
+  - Example of [Using LangChain for Large Scale Literature Review](https://github.com/MicrosoftCloudEssentials-LearningHub/Fabric-AI-Retail-Demo/tree/main/AzurePortal/2_AI_LLMs#using-langchain-for-large-scale-literature-review): This example is around extracting content from PDFs linked in arXiv papers and generating prompts for extracting specific information.
+  - [Machine Learning Integration with Microsoft Fabric](https://github.com/MicrosoftCloudEssentials-LearningHub/Fabric-AI-Retail-Demo/tree/main/AzurePortal/2_AI_LLMs#machine-learning-integration-with-microsoft-fabric): Shows how to train and register machine learning models using Microsoft Fabric's native integration with the MLflow framework. This includes logging trained models, hyperparameters, and evaluation metrics. It also shows how to compare and filter machine learning models using MLflow, with an example using RandomForestRegressor.
+
 - [Data Agent](./AzurePortal/3_DataAgent.md): Get insights on using AI skills within the platform.
 
     <img width="1141" height="669" alt="image" src="https://github.com/user-attachments/assets/7c9cac60-8048-4a02-bc5a-c81ba5c041e1" />
