@@ -21,11 +21,43 @@ Last updated: 2025-10-09
 <details>
 <summary><b>Table of Content </b> (Click to expand)</summary>
   
+- [How to setup](#how-to-setup)
 - [Prerequisites](#prerequisites)
 - [Where to start?](#where-to-start)
 - [Content](#content)
 
 </details>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8fdb3198-8fda-4dd0-869e-b0dccb268a30" alt="Centered Image" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>
+
+From [Microsoft Documentation](https://learn.microsoft.com/pt-br/fabric/fundamentals/microsoft-fabric-overview)
+
+<details>
+<summary><b>Workloads overview</b> (Click to expand)</summary>
+  
+| Component                | Purpose                                      | Key Features                                                                 | Why Fabric vs. Each Resource Individually                                  |
+|--------------------------|----------------------------------------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| **Data Factory**         | Cloud-based data integration service         | Orchestrates and automates data movement and transformation. Supports ETL processes. | **Enhanced Integration**: Fabric integrates Data Factory with other components, reducing data silos and improving workflow efficiency. |
+| **Synapse Data Engineering** | Big data processing                        | Utilizes Apache Spark for large-scale data preparation and transformation. Integrates with various data sources. | **Unified Platform**: Fabric provides a cohesive environment where data engineering seamlessly connects with analytics and other services, streamlining data processing and reducing complexity. |
+| **Synapse Data Warehouse** | Scalable analytics service                  | Combines big data and data warehousing. Provides high-performance SQL-based analytics. | **Comprehensive Insights**: Fabric's integration allows for unified analytics, offering a holistic view of data across different services, enhancing decision-making and operational efficiency. |
+| **Synapse Real-Time Analytics** | Real-time data analytics                | Processes streaming data for immediate insights. Supports real-time dashboards and alerts. | **Seamless Data Flow**: Fabric ensures continuous data flow and real-time analytics integration, enhancing responsiveness and enabling proactive decision-making. |
+| **Power BI**             | Business analytics tool                      | Interactive visualizations, self-service BI capabilities. Allows users to create reports and dashboards easily. | **Enhanced Connectivity**: Fabric enhances Power BI's capabilities by providing better data connectivity and integration with other components, leading to richer insights and more comprehensive reporting. |
+| **Data Activator**       | Trigger actions based on data conditions     | Automates responses to specific data events. Enhances data-driven decision-making. | **Integrated Automation**: Fabric leverages comprehensive data insights for more effective automation and action-triggering, improving operational efficiency and responsiveness. |
+| **Synapse Data Science** | Machine learning and data science            | Tools for building, training, and deploying ML models. Integrates with the Synapse ecosystem for scalable data science workflows. | **Unified Workflows**: Fabric integrates data science workflows with other Synapse services, enhancing collaboration, scalability, and the ability to derive actionable insights from data. |
+
+</details>
+
+> Before Fabric
+
+<p float="left">
+  <img src="https://github.com/brown9804/MSCloudEssentials_LPath/assets/24630902/c47ad7c0-375e-4257-b56e-7b3b89619e2f" width="450" height="200" />
+  <img src="https://github.com/brown9804/MSCloudEssentials_LPath/assets/24630902/64812721-7c24-4771-90f4-27f7a21fa9e0" width="350" height="200" />
+</p>
+
+
+## How to setup
 
 > Overall, you can set up your infrastructure using either of the following approaches:
 
