@@ -11,10 +11,10 @@ Last updated: 2025-10-09
 
 > Lakehouse Schema and Deployment Pipelines 
 
-
 <details>
 <summary><b> List of References </b> (Click to expand)</summary>
 
+- [Introduction to deployment pipelines](https://learn.microsoft.com/en-us/fabric/cicd/deployment-pipelines/intro-to-deployment-pipelines?tabs=new-ui)
 - [Table deletes, updates, and merges - DeltaTables](https://docs.delta.io/latest/delta-update.html#-merge-in-streaming)
 - [DeltaLake - DeltaTables Releases](https://github.com/delta-io/delta/releases)
 - [DeltaTable execute() example](https://github.com/delta-io/delta/blob/master/examples/python/quickstart.py#L50-L56)
@@ -41,7 +41,6 @@ Last updated: 2025-10-09
     - [Deploy to Production](#deploy-to-production)
 - [How to refresh the data](#how-to-refresh-the-data)
 
-
 </details>
 
 ## Overview
@@ -62,6 +61,25 @@ Process Overview:
 > `Deployment Rules:` You can set deployment rules to manage different stages and change content settings during deployment. For example, you can specify default lakehouses for notebooks to avoid manual changes post-deployment.
 
 ## Demo 
+
+> Deployment pipelines actually move between stages (e.g Dev → Test → Prod), and what they leave behind:
+
+| **Item Type**               | **Deployed**                                                                 | **Not Deployed**                                  | **Technical Notes & Background** |
+|----------------------------|------------------------------------------------------------------------------|---------------------------------------------------|----------------------------------|
+| **Reports (.pbix)**        | Report structure, visuals, filters, layout                                  | Cached data in visuals (requires refresh)         | PBIX files are deployed as metadata. Data visuals will show stale or blank until semantic model is refreshed in target stage. |
+| **Dashboards**             | Dashboard layout, tiles, links                                               | Live data behind tiles                            | Tiles linked to reports or semantic models require those sources to be refreshed separately. |
+| **Semantic Models**        | Model schema, tables, relationships, measures, DAX expressions               | Imported or cached data                           | Semantic models are deployed without data. You must trigger a refresh post-deployment to populate tables. |
+| **Dataflows Gen2**         | Power Query M scripts, transformations, source definitions                   | Output tables or files                            | Dataflows are metadata-only. They define how data is ingested but do not carry the ingested data itself. |
+| **Notebooks**              | Notebook content, markdown, code cells                                       | Execution outputs, charts, dataframes             | Notebooks are deployed as-is. Any outputs (e.g., charts, tables) must be re-executed in the target environment. |
+| **Lakehouse**              | Table definitions, folder structure, metadata                                | Parquet/CSV files, actual data                    | Lakehouse metadata is deployed, but files stored in OneLake are not copied. Use shortcuts or external pipelines for data movement. |
+| **Warehouse**              | Table schema, column definitions, relationships                              | Table rows and data                               | Warehouses are metadata-only in deployment. You need separate ETL or data movement to populate tables. |
+| **Spark Job Definitions**  | Job configuration, code, parameters                                           | Execution logs, output datasets                   | Spark jobs are deployed as code artifacts. Outputs must be regenerated in the target stage. |
+| **Machine Learning Models**| Training configuration, metadata, experiment setup                           | Trained weights (unless embedded)                 | If models are stored externally (e.g., Azure ML), only references are deployed. Embedded models may carry weights. |
+| **Event Streams**          | Stream schema, input/output definitions, transformations                     | Live streaming data                               | Event stream definitions are deployed, but no data is transferred. You must reconnect sources in target stage. |
+| **KQL Databases**          | Table schema, KQL queries, dashboards                                        | Query results, ingested data                      | KQL metadata is deployed. Data ingestion must be reconfigured or re-triggered in the target stage. |
+| **SQL/Cosmos Databases**   | Connection metadata, linked service definitions                              | Actual database content                           | Connections are deployed, but no data is moved. You must ensure target DB access and sync separately. |
+| **Paginated Reports**      | Report layout, RDL file, parameters                                           | Cached data, query results                        | Paginated reports are metadata-only. They require semantic model refresh or DB connectivity in target stage. |
+| **Org Apps**               | App structure, navigation, linked content                                    | Underlying data in linked items                   | Apps are wrappers. They deploy links to items, not the data itself. All linked content must be refreshed independently. |
 
 ### Create a Workspace
 
