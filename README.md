@@ -19,6 +19,16 @@ Last updated: 2025-10-09
 > For more detailed and official training, please visit the [Microsoft official training site](https://learn.microsoft.com/en-us/training/)
 
 <details>
+<summary><b>List of references</b> (Click to expand)</summary>
+  
+- [Microsoft Fabric decision guide: choose a data store](https://learn.microsoft.com/en-us/fabric/fundamentals/decision-guide-data-store
+)
+
+    <img width="523" height="465" alt="image" src="https://github.com/user-attachments/assets/ca15f8b9-6c96-4bc5-9d27-66f65afe31e2" />
+
+</details>
+
+<details>
 <summary><b>Table of Content </b> (Click to expand)</summary>
   
 - [How to setup](#how-to-setup)
