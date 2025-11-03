@@ -40,6 +40,9 @@ Last updated: 2025-10-09
     <img width="1610" height="483" alt="image" src="https://github.com/user-attachments/assets/5aa282f3-4202-4195-8376-2c071c88d90d" />
 
 - [Zava DIY Dataset Plus MCP](https://github.com/microsoft/ai-tour-26-zava-diy-dataset-plus-mcp/tree/main) - github repo
+- [Implement medallion architecture in Real-Time Intelligence](https://learn.microsoft.com/en-us/fabric/real-time-intelligence/architecture-medallion#implement-the-medallion-architecture)
+
+  <img width="2040" height="754" alt="image" src="https://github.com/user-attachments/assets/53acd90e-1b3f-4ffd-ac77-428d6650bcab" />
 
 </details>
 
