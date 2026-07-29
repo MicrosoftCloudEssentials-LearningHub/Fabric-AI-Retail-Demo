@@ -1,0 +1,64 @@
+site_name: Fabric AI Retail Demo
+site_description: Retail learning hub for Microsoft Fabric data foundations, AI readiness, and governed operations.
+site_url: https://cloud2br-msftlearninghub.github.io/Fabric-AI-Retail-Demo/
+repo_url: https://github.com/Cloud2BR-MSFTLearningHub/Fabric-AI-Retail-Demo
+repo_name: Cloud2BR-MSFTLearningHub/Fabric-AI-Retail-Demo
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+copyright: Copyright &copy; 2026 <a href="https://github.com/Cloud2BR-MSFTLearningHub" target="_blank" rel="noopener">Cloud2BR OSS - Learning Hub</a>
+
+theme:
+  name: material
+  logo: https://avatars.githubusercontent.com/u/195347873?v=4
+  favicon: https://avatars.githubusercontent.com/u/195347873?v=4
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    scheme: default
+    primary: blue
+    accent: blue
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.highlight
+  - pymdownx.snippets:
+      base_path:
+        - .
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - assets/css/custom.css
+extra_javascript:
+  - assets/js/logo-link.js
+  - assets/js/external-links.js
+  - path: assets/js/mermaid.js
+    type: module
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Cloud2BR-MSFTLearningHub
+      name: Cloud2BR OSS - Learning Hub
+
+nav:
+  - Home: index.md
+  - Retail data foundation: retail-data-foundation.md
+  - AI and Data Agent readiness: ai-and-data-agent.md
+  - Provision the demo: provision-the-demo.md
+  - Govern and operate: govern-and-operate.md
